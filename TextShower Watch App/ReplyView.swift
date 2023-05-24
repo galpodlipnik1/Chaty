@@ -44,7 +44,7 @@ struct ReplyView: View {
         let body: [String: Any] = [
             "text": replyText,
             "emoji": replyEmoji,
-            "creator": "watch"
+            "creator": "watch-\(getDeviceIdentifier())"
         ]
 
         guard let jsonData = try? JSONSerialization.data(withJSONObject: body) else {

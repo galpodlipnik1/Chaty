@@ -17,6 +17,7 @@
 		426362502A1E59E700C1E75E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263624F2A1E59E700C1E75E /* ContentView.swift */; };
 		426362522A1E59E800C1E75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426362512A1E59E800C1E75E /* Assets.xcassets */; };
 		426362552A1E59E800C1E75E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426362542A1E59E800C1E75E /* Preview Assets.xcassets */; };
+		42D3AAAD2A1E9CAF00C6E3A6 /* UniqueIdGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D3AAAC2A1E9CAF00C6E3A6 /* UniqueIdGen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4263624F2A1E59E700C1E75E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		426362512A1E59E800C1E75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426362542A1E59E800C1E75E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42D3AAAC2A1E9CAF00C6E3A6 /* UniqueIdGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueIdGen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				421BFE922A1E68560020F564 /* ReplyButtonView.swift */,
 				4263624D2A1E59E700C1E75E /* TextShowerApp.swift */,
 				421BFE962A1E68770020F564 /* APIResponse.swift */,
+				42D3AAAC2A1E9CAF00C6E3A6 /* UniqueIdGen.swift */,
 				421BFE982A1E68850020F564 /* DataStore.swift */,
 				4263624F2A1E59E700C1E75E /* ContentView.swift */,
 				426362512A1E59E800C1E75E /* Assets.xcassets */,
@@ -209,6 +212,7 @@
 			files = (
 				421BFE992A1E68850020F564 /* DataStore.swift in Sources */,
 				421BFE912A1E68410020F564 /* MessageView.swift in Sources */,
+				42D3AAAD2A1E9CAF00C6E3A6 /* UniqueIdGen.swift in Sources */,
 				426362502A1E59E700C1E75E /* ContentView.swift in Sources */,
 				4263624E2A1E59E700C1E75E /* TextShowerApp.swift in Sources */,
 				421BFE932A1E68560020F564 /* ReplyButtonView.swift in Sources */,
