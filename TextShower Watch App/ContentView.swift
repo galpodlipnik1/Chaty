@@ -1,21 +1,25 @@
-//
-//  ContentView.swift
-//  TextShower Watch App
-//
-//  Created by Gal Podlipnik on 24/05/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var dataStore = DataStore()
+    @State private var isReplyViewPresented = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            MessageView(apiResponse: dataStore.apiResponse)
+            
+            Spacer()
+            
+            ReplyButtonView(isReplyViewPresented: $isReplyViewPresented)
         }
         .padding()
+        .sheet(isPresented: $isReplyViewPresented) {
+            ReplyView(isReplyViewPresented: $isReplyViewPresented)
+        }
+        .onAppear {
+            dataStore.fetchData()
+        }
     }
 }
 

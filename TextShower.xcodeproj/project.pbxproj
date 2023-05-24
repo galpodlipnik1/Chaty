@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421BFE912A1E68410020F564 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BFE902A1E68410020F564 /* MessageView.swift */; };
+		421BFE932A1E68560020F564 /* ReplyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BFE922A1E68560020F564 /* ReplyButtonView.swift */; };
+		421BFE952A1E68690020F564 /* ReplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BFE942A1E68690020F564 /* ReplyView.swift */; };
+		421BFE972A1E68770020F564 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BFE962A1E68770020F564 /* APIResponse.swift */; };
+		421BFE992A1E68850020F564 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BFE982A1E68850020F564 /* DataStore.swift */; };
 		426362492A1E59E700C1E75E /* TextShower Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 426362482A1E59E700C1E75E /* TextShower Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4263624E2A1E59E700C1E75E /* TextShowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263624D2A1E59E700C1E75E /* TextShowerApp.swift */; };
 		426362502A1E59E700C1E75E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263624F2A1E59E700C1E75E /* ContentView.swift */; };
@@ -39,6 +44,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		421BFE902A1E68410020F564 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		421BFE922A1E68560020F564 /* ReplyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyButtonView.swift; sourceTree = "<group>"; };
+		421BFE942A1E68690020F564 /* ReplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyView.swift; sourceTree = "<group>"; };
+		421BFE962A1E68770020F564 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		421BFE982A1E68850020F564 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		426362422A1E59E700C1E75E /* TextShower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextShower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426362482A1E59E700C1E75E /* TextShower Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextShower Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4263624D2A1E59E700C1E75E /* TextShowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShowerApp.swift; sourceTree = "<group>"; };
@@ -78,7 +88,12 @@
 		4263624C2A1E59E700C1E75E /* TextShower Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				421BFE902A1E68410020F564 /* MessageView.swift */,
+				421BFE942A1E68690020F564 /* ReplyView.swift */,
+				421BFE922A1E68560020F564 /* ReplyButtonView.swift */,
 				4263624D2A1E59E700C1E75E /* TextShowerApp.swift */,
+				421BFE962A1E68770020F564 /* APIResponse.swift */,
+				421BFE982A1E68850020F564 /* DataStore.swift */,
 				4263624F2A1E59E700C1E75E /* ContentView.swift */,
 				426362512A1E59E800C1E75E /* Assets.xcassets */,
 				426362532A1E59E800C1E75E /* Preview Content */,
@@ -192,8 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421BFE992A1E68850020F564 /* DataStore.swift in Sources */,
+				421BFE912A1E68410020F564 /* MessageView.swift in Sources */,
 				426362502A1E59E700C1E75E /* ContentView.swift in Sources */,
 				4263624E2A1E59E700C1E75E /* TextShowerApp.swift in Sources */,
+				421BFE932A1E68560020F564 /* ReplyButtonView.swift in Sources */,
+				421BFE952A1E68690020F564 /* ReplyView.swift in Sources */,
+				421BFE972A1E68770020F564 /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
