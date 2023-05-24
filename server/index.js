@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
 
 app.get('/text', async (req, res) => {
   try {
-    let text = await Text.findOne({ creator: { $ne: 'watch' } }).sort({ createdAt: -1 }).limit(1);
+    let text = await Text.findOne({ creator: { $regex: /^((?!watch).)*$/ } }).sort({ createdAt: -1 });
     if(text == null) text = {};
     res.status(200).json(text);
   } catch (error) {
